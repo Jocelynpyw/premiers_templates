@@ -1,0 +1,237 @@
+body{
+	margin:20px;
+
+
+}
+header{
+	width: 100%;
+	height: 400px;
+	
+
+}
+.entete img{
+	position: relative;
+	object-fit: cover;
+	/*object-fit: contain;*/
+}
+.logo h2{
+	position: absolute;
+	top: 6%;
+	left: 11%;
+	color: #fff;
+	font-weight: bold;
+	text-shadow: 1px 2px #000;
+}
+.entete nav {
+ 	position: relative;
+ 	top:-360px;
+ 	left: 810px;	
+}
+.entete nav a {
+	margin-right: 3px;
+	text-decoration: none;
+	color:#fff;
+	font-size: 17px;
+}
+
+.entete p{
+	width: 400px;
+	height: 180px;
+	position: relative;
+	top:-300px;
+	left: 120px;
+	font-size: 45px;
+	font-weight: normal;
+	margin-top: 10px;
+	padding-top: 30px;
+	padding-left: 40px;
+	color: #fff;
+
+}
+.jeux{
+	margin-top:100px; 
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.personne{
+	width:500px;
+	height: 300px;
+	transform: translateX(170px);
+}
+.personne img{
+	/*position: relative;*/
+	object-fit: cover;
+	width: 500px;
+	height: 300px;
+	float: left;
+
+}
+.jeux article {
+	width: 400px;
+	height: 300px;
+	background-color: #fff;
+	/*transform: translateY(200px);*/
+	transform: translateX(50px);
+	margin-top:70px;
+	padding: 20px;
+
+}
+.jeux article h3{
+	width: 400px;
+	object-fit: cover;
+	font-size: 30px;
+}
+.milli{
+	display: flex;
+	flex-direction: row;
+}
+.milli p{
+	margin-left: 200px;
+	font-size: 20px;
+}
+.milli button{
+	margin-left: 700px;
+	height: 29px
+
+}
+
+.galerie{
+
+	margin-top: 50px;
+}
+.galerie1,.galerie2{
+	display: flex;
+	justify-content: center;
+}
+.galerie1 img,.galerie2 img{
+	margin:10px;
+}
+.galerie2 img{
+	margin-top: -60px;
+}
+
+.photo p{
+	transform: translateY(-100px);
+	margin-left: 50px;
+	color: 	rgb(191, 191, 191);
+}
+footer{
+	width: 100%;
+	height: 100px;
+	background-color: #000;
+	color:#fff;
+}
+
+.fin{
+
+position: relative;
+top:29px;
+right: -900px;
+}
+.fin img{
+	border-radius: 50px;
+	margin-right: 5px;
+}
+.last{
+	margin-bottom: -80px;
+	margin-left: 90px;
+} 
+.last a {
+	text-decoration: none;
+	color: #fff;
+}
+
+@media screen and (max-width: 680px){
+	.entete nav {
+		position: absolute;
+		top: 160px;
+		left: 50px;
+ 	display: flex;
+ 	
+}
+
+.entete nav a {
+	margin-right: 10px;
+	text-decoration: none;
+	color:#fff;
+}
+.entete p{
+	width: 320px;
+	height: 140px;
+	position: relative;
+	top:-200px;
+	left: 20px;
+	font-size: 40px;
+	font-weight: normal;
+	margin-top: 10px;
+	padding-top: 30px;
+	padding-left: 40px;
+	color: #fff;
+
+}
+
+
+
+
+
+.jeux{
+	margin-top:100px; 
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	transform: translateX(-40px);
+}
+.personne{
+	width:500px;
+	height: 300px;
+	transform: translateX(40px);
+	border-right: 21px;
+}
+.personne img{
+	/*position: relative;*/
+	object-fit: cover;
+	width: 400px;
+	height: 200px;
+
+	
+
+}
+.jeux article {
+	width: 400px;
+	height: 300px;
+	background-color: #fff;
+	/*transform: translateY(200px);*/
+	transform: translateX(90px);
+	margin-top:-120px;
+	padding: 5px;
+
+}
+.jeux article h3{
+	width: 250px;
+	object-fit: cover;
+	font-size: 20px;
+}
+
+
+.milli{
+	display: flex;
+	flex-direction: column;
+}
+.milli p{
+	margin-left: 20px;
+	/*font-size: 20px;*/
+}
+.milli button{
+	margin-left: 210px;
+	height: 29px
+	width:40px;
+	transform: translateY(-45px);
+
+}
+
+.galerie1,.galerie2{
+	display: inline-block;
+	
+}
+}

@@ -1,0 +1,305 @@
+body{
+	margin: 0 0 auto;
+}
+html{
+	scroll-behavior: smooth;
+}
+header{
+	height: 70px;
+	overflow: hidden;
+}
+.logo{
+	position: absolute;
+	top: 20px;
+	left:40px;
+
+}
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	width: 800px;
+	float: right;
+	margin-top: 15px;
+}
+nav a{
+	text-decoration: none;
+	font-family: 'Open Sans' , Sans-serif;
+	margin: 10px;
+	color: #6f6f6f
+}
+
+.onglet a:hover{
+	font-size: 30px;
+	/*color: linear-gradient(to right, rgb(102, 255, 102),rgb(102, 217, 255)) ;*/
+	 background:linear-gradient(to right, rgb(102, 255, 102),rgb(102, 217, 255)) ;
+}
+.btn{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+	position: absolute;
+	top:12px;
+	right: 80px;
+	
+}
+.btn button{
+	background:linear-gradient(to right, rgb(102, 255, 102),rgb(102, 217, 255)) ;
+	border-radius: 50px;
+	float: right;
+	height: 30px;
+	width: 180px;
+
+}
+.baniere{
+	width: 94%;
+	height: 600px;
+	background-color: #E6E6FA;
+	margin-left: 30px;
+
+
+}
+
+.photo_tel{
+margin-left: 10px;
+	height: 600px;
+	width: 45%;
+	float: right;
+	transform: translateX(-3px);
+	overflow: hidden;
+	/*background-image: url('img\ bg-intro-desktop.svg');*/
+}
+
+.presentation{
+	height: 400px;
+	width: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 100px;
+	float: left;
+	margin-left: 110px;
+
+	
+}
+.presentation h2{
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Arial, Sans-serif;
+	color: #6f6f6f;
+	margin-left: 10px;
+	line-height: 35px;
+	width: 50%
+
+}
+
+.presentation p{
+	font-family: sans-serif;
+	width:50%;
+	position: relative;
+	top:-100px;
+	left: 90px;
+
+}
+.presentation button{
+	height: 40px;
+	width: 180px;
+	border-radius:50px;
+	position: relative;
+	top: 35px;
+	left: -160px;
+	color: #fff;
+	background:linear-gradient(to right, rgb(102, 255, 102),rgb(102, 217, 255)) ;
+}
+.image1{
+
+	height: 500px;
+	width: 700px;
+	transform: translateX(10px);
+	transform: translateY(-140px);
+
+
+}
+.imagephototel{
+	overflow-x: 40px;
+	width: 400px;
+	height:500px;
+
+}
+/*.image2{
+	position: absolute;
+	top:-100px;
+	right: -140px;
+	height: 500px;
+	width: 500px;
+}*/
+.image2{
+	height: 700px;
+	width: 600px;
+	position: relative;
+	top:100px;
+	left: 130px;
+	transform: translateX(300px);
+	transform: translateY(-700px);
+}
+.pourquoi{
+	
+	height: 500px;
+	width: 94.18%;
+	background-color: #E6E6FA;
+	margin-top: -45px;
+	margin-left:29px ;
+	margin-right: -144px;
+}
+
+.choix{
+	margin-top: 45px;
+	font-family: sans-serif;
+	width:50%;
+	position: relative;
+	top:-100px;
+	left: 230px;
+	font-family: verdana, Sans-serif;
+	
+
+
+}
+.choix h2{
+	font-family: sans-serif;
+}
+.contenair{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: -55px;
+	margin-left: 120px;
+
+}
+.objet{
+	
+	/*height: 250px;*/
+	/*width: 250px;*/
+	width: 20%;
+	margin-right: 7px;
+}
+.objet p{
+	font-family: 'Open Sans',Sans-serif;
+}
+.elements{
+transform: translateX(55px);
+display: flex;
+flex-wrap: wrap-reverse;
+justify-content: center;
+}
+h2{
+	transform: translateX(35px);
+	font-size: 15px;
+	width: 100%;
+}
+h6{
+	transform: translateX(35px);
+	color: #6f6f6f;
+}
+.picture{
+	height: 160px;
+	width: 230px;
+	margin-left: 20px;
+}
+.picture img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.article h1{
+	margin-left:210px ; 
+	color: #6f6f6f;
+	margin-bottom: 60px; 
+}
+.article{
+	margin-top: -60px;
+}
+article p{
+	width:200px;
+	font-family: 'verdana',Sans-serif;
+	color: #6f6f6f;
+	transform: translateX(35px);
+}
+
+.reseaux_sociaux img{
+	width: 19px;
+	height: 19px;
+	border-radius: 50px;
+	margin:5px;
+	margin-top: 40px;
+}
+
+
+footer{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	height: 150px;
+	background-color: rgb(31, 31, 71);
+	color:#fff;
+	margin: 30px 30px 0px 30px;
+}
+
+/*.phrases1 {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: -15px;
+
+}*/
+footer aside {
+
+}
+footer aside{
+	position: relative;
+	top: 40px;
+	left: 140px;
+}
+.phrases1{
+	position: relative;
+	left: 270px;
+	top: 30px;
+	
+
+}
+.phrases2{
+	position: relative;
+	left: 350px;
+	top: 30px;
+	
+}
+footer .droits{
+	position: relative;
+	top: 40px;
+	right: -590px;
+}
+
+.droits button{
+	position: relative;
+	left: 20px;
+	background:linear-gradient(to right, rgb(102, 255, 102),rgb(102, 217, 255)) ;
+	border-radius: 50px;
+	height: 30px;
+	width: 180px;
+}
+
+
+
+@media screen and ( max-width: 680px){
+
+	.contenair{
+		display: block;
+	}
+
+	.objet {
+		height: 250px;
+		width: 60%;
+		margin:0px;
+	}
+	article h1{
+	margin-left:none ; 
+}
+}
+
